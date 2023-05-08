@@ -2,37 +2,26 @@
 
 <img src='https://deauther.com/img/logo.png' alt='Deauther Logo' width='200' />
 
-**Scan for WiFi devices, block selected connections, create dozens of networks and confuse WiFi scanners.**
+**扫描WiFi设备，块选定的连接，创建数十个网络并混淆WiFi扫描仪.**
 
-## New Documentation
 
-Hi 👋  
-Please visit [Deauther.com](https://deauther.com) for information about this project.  
-Here are some quick links:
+## 密码
 
-* [Buy](https://deauther.com/docs/buy)
-* [Download](https://deauther.com/docs/download)
-* [DIY Tutorial](https://deauther.com/docs/category/diy-tutorial)
-* [Usage](https://deauther.com/docs/category/usage)
-* [FAQ](https://deauther.com/docs/faq)
+`pwned`的密码为`deauther`
 
-## Password
+## 关于项目
 
-The password for `pwned` is `deauther`
+该固件可让您轻松地执行各种操作，使用[ESP8266]（https://www.espressif.com/en/products/socs/socs/esp8266）测试802.11网络。 
+这也是学习WiFi，微控制器，Arduino，Hacking和Electronics/编程的好项目。
+解次验证攻击是主要功能，可用于从其WiFi网络中断开连接设备。
+尽管这种拒绝服务攻击并不是什么新鲜事物，但许多设备仍然容易受到影响。 幸运的是，使用更多的WiFi 6启用设备正在慢慢改变。 但是，许多过时的WiFi设备仍然存在，例如在便宜的物联网硬件中。
+使用ESP8266 Deauther，您可以轻松地测试对2.4GHz WiFi网络/设备的攻击，并查看是否成功。 如果是这样，您知道应该升级网络。
 
-## About this Project
+## 免责声明
 
-This firmware allows you to easily perform a variety of actions to test 802.11 networks using an [ESP8266](https://www.espressif.com/en/products/socs/esp8266). It's also a great project for learning about WiFi, microcontrollers, Arduino, hacking and electronics/programming in general.  
+该项目是用于测试和教育目的的概念证明。
+ESP8266及其SDK都不是出于此类目的的含义或建造。 **可能发生错误！**
 
-The deauthentication attack is the main feature, which can be used to disconnect devices from their WiFi network.  
-Although this denial-of-service attack is nothing new, a lot of devices are still vulnerable to it. Luckily this is slowly changing with more WiFi 6 enabled devices being used. But a lot of outdated WiFi devices remain in place, for example in cheap IoT hardware.
-With an ESP8266 Deauther, you can easily test this attack on your 2.4GHz WiFi network/devices and see whether it's successful or not. And if it is, you know you should upgrade your network.
-
-## Disclaimer
-
-This project is a proof of concept for testing and educational purposes.  
-Neither the ESP8266, nor its SDK was meant or built for such purposes. **Bugs can occur!**  
-
-**Use it only against your own networks and devices!**  
-Please check the legal regulations in your country before using it.  
-We don't take any responsibility for what you do with this program.  
+**仅对您自己的网络和设备使用它！**
+在使用之前，请先检查您所在国家 /地区的法律法规。
+我们对您对此计划的工作不承担任何责任。
